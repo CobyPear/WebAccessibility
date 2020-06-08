@@ -1,3 +1,5 @@
+/* General style */
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,6 +10,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* Header */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -47,6 +50,7 @@ header nav ul li {
     margin-left: 25px;
 }
 
+/* link style */
 a {
     color: #ffffff;
     text-decoration: none;
@@ -55,11 +59,13 @@ a {
     font-size: 24px;
 }
 
+/* paragraph style */
 p {
     /* font size increased from 16px to 24px */
     font-size: 24px;
 }
 
+/* background image */
 .hero {
     height: 800px;
     width: 100%;
@@ -69,6 +75,7 @@ p {
     background-position: center;
 }
 
+/* floats */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -149,6 +156,7 @@ p {
     font-size: 36px;
 }
 
+/* footer */
 footer {
     padding: 30px;
     clear: both;
